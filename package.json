@@ -46,6 +46,7 @@
     "amortization": "^1.1.1",
     "chart.js": "^2.4.0",
     "currency-formatter": "^1.0.8",
+    "extract-text-webpack-plugin": "^1.0.1",
     "material-ui": "^0.16.6",
     "moment": "^2.17.1",
     "react": "15.4.1",
