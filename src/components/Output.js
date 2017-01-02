@@ -44,8 +44,6 @@ class Output extends React.Component {
   getSummaryDonutData() {
     const { loanAmount } = this.props.input;
     const totalInterest = this.calculateTotalCost() - loanAmount;
-    console.log('loanAmount', loanAmount);
-    console.log('totalInterest', totalInterest);
     const data = {
       labels: [
         'principal',

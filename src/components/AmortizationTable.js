@@ -10,8 +10,10 @@ const getStyle = (screen) => {
     case 'lg':
     case 'md':
       return { fontSize: '12px' };
-    default:
+    case 'sm':
       return { fontSize: '8px' };
+    default:
+      return { fontSize: '7px' };
   }
 };
 

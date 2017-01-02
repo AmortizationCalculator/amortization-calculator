@@ -67,7 +67,7 @@ const displayDataCell = (content) => (
 
 const displaySummaryCell = (content) => (
   <Col xs={2} style={summaryCellStyle}>
-    <span>{content}:</span>
+    <span>{content}</span>
   </Col>
 );
 
