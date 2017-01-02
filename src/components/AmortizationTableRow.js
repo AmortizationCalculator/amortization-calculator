@@ -84,7 +84,7 @@ const AmortizationTableRow = (props) => {
       </Row>
       {shouldShowAnnualSummaryRow(props) &&
         <Row style={summaryRowStyle}>
-          {displaySummaryCell(displayDateForPayment(props, 'YYYY'))}
+          {displaySummaryCell(`${displayDateForPayment(props, 'YYYY')}:`)}
           {displaySummaryCell(displayAnnualTotal(props, 'payment'))}
           {displaySummaryCell(displayAnnualTotal(props, 'principalPaymentRounded'))}
           {displaySummaryCell(displayAnnualTotal(props, 'interestPaymentRounded'))}

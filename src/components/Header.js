@@ -6,7 +6,7 @@ const Header = (props) => (
      Amortization Calculator
     </div>
     <div className="tagline">
-      Amortization Schedule for mortgages and other loans
+      loan interest amortization schedule
     </div>
   </div>
 );
